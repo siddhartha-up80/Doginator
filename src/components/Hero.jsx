@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
             <span className="text-cyan-600 md:text-5xl text-5xl">
-             <span className="text-white text-3xl">Want a full time dog?</span>  <br/> <span className="text-4xl">Gautam Premium Services</span>
+             <span className="text-white text-3xl">Want a full time dog?</span>  <br/> <span className="text-4xl">Dog Premium Services</span>
               <br />
             </span>
             
@@ -34,7 +34,7 @@ const Hero = () => {
                 key={icon}
                 className="text-gray-600 hover:text-white cursor-pointer "
               >
-                <a href="https://www.instagram.com/gautam.yadaav/"><ion-icon name={icon}></ion-icon></a>
+                <a href="https://www.instagram.com"><ion-icon name={icon}></ion-icon></a>
               </div>
             ))}
           </div>
