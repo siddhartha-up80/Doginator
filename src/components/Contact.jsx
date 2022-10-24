@@ -6,7 +6,7 @@ const Contact = () => {
     { logo: "logo-whatsapp", text: "123 456 780" },
     {
       logo: "location",
-      text: "Bihar",
+      text: "Uttarpradesh/Bihar",
     },
   ];
   return (
