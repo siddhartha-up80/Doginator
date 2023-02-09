@@ -18,16 +18,16 @@ const Hero = () => {
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
             <span className="text-cyan-600 md:text-5xl text-5xl">
-             <span className="text-white text-3xl">Want a full time dog?</span>  <br/> <span className="text-4xl">Dog Premium Services</span>
+             <span className="text-white text-3xl">Want a full time security services?</span>  <br/> <span className="text-4xl">Dog Premium Services</span>
               <br />
             </span>
             
           </h1>
           
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-            FIR Expert, Dog Food Expert, Dogs Security Provider
+            We will protect you and your home by using our trained dogs.
           </h4>
-          <a href="#contact"><button className="btn-primary mt-8">Contact Me</button></a>
+          <a href="#contact"><button className="btn-primary mt-8">Contact Us</button></a>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5 md:ml-10">
             {social_media?.map((icon) => (
               <div

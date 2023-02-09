@@ -10,14 +10,14 @@ const About = () => {
     <section id="about" className="py-10 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold">
-          About <span className="text-cyan-600">Me</span>
+          About <span className="text-cyan-600">Us</span>
         </h3>
-        <p className="text-gray-400 my-3 text-lg">My introduction</p>
+        <p className="text-gray-400 my-3 text-lg">Our introduction</p>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Dedicated Dog Service Representative dedicated to providing quality service for ultimate customer satisfaction. Proven ability to establish and maintain excellent dog communication and relationships with dogs. Excellent time management skills combined with a superior knowledge of the dog service industry.
+                Dedicated Dog Service Representative dedicated to providing quality security service for ultimate customer safty and satisfaction. Proven ability to establish and maintain excellent dog communication and relationships with dogs.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
@@ -32,9 +32,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/Resume.pdf" download>
-                <button className="btn-primary">Download CV</button>
-              </a>
+              
             </div>
           </div>
           <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
